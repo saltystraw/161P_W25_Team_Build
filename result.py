@@ -3,7 +3,7 @@ from unittest import result
 from validate import get_valid_choice
 def display_result(result):
     """
-    Displays the provided result string within a decorative border of asterisks.
+    Displays the provided result string within a decorative border of asterisks   .
 
     This function takes a string input, calculates its length, and prints a border of asterisks
     above and below the result string. The border length is equal to the length of the result

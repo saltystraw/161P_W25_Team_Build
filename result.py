@@ -9,7 +9,7 @@ def display_result(result):
     above and below the result string. The border length is equal to the length of the result
     string plus four additional asterisks for padding.
 
-    Args: result (str): The string to be displayed within the decorative border.
+    Args: result   (str): The string to be displayed within the decorative border.
     Returns: None
 
     Behavior:

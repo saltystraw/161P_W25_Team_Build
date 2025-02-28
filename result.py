@@ -1,3 +1,5 @@
+from unittest import result
+
 from validate import get_valid_choice
 def display_result(result):
     """
@@ -17,3 +19,11 @@ def display_result(result):
     Display on a new line x+4 asterisks where x is the number of letters in result
     Display a blank line
     """
+    res_len = len(result)   # set to the length of result
+    border = "*" * (res_len + 4)  # x+4 asterisks where x is the number of letters in result
+    print(border)           # prints top row of border
+    print(f"  {result}  ")#prints result of functions
+    print(border)
+
+
+display_result("hello world!")
